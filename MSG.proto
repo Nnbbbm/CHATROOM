@@ -1,0 +1,21 @@
+syntax="proto3";
+
+enum TYPE{
+    CLIENT_QUIT =0;
+    CLIENT_ENTER_ROOM =1;
+    CLIENT_LEAVE_ROOM =2;
+    CLIENT_LOGIN =3;
+    CLIENT_LOGIN_YES =4;
+    CLIENT_LOGIN_NO =5;
+    TEXT_DATA =6;
+    SERVER_HINT =7;
+    ROOM_NUM =8;
+    ROOM_NAMES =9;
+};
+
+message MSG{
+    TYPE type =1;
+    bytes data =2;
+    bytes from =3;
+    bytes to =4;
+}
