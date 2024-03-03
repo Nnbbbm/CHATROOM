@@ -1,5 +1,5 @@
 # CHATROOM
-QT编写的小型聊天室--客户端，可以传输文本，涉及信号与槽，多线程，sokcet编程
+QT编写的小型聊天室--客户端，可以传输文本，涉及信号与槽，多线程，sokcet编程，服务器端地址：https://github.com/Nnbbbm/CHATROOM--SERVER
 
 登录界面：
 
